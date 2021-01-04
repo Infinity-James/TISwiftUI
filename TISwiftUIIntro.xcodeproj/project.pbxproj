@@ -10,12 +10,14 @@
 		1A0108FB257D25810097F663 /* Chapter2Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0108FA257D25810097F663 /* Chapter2Exercise.swift */; };
 		1A0108FE257FDAC90097F663 /* Chapter3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0108FD257FDAC90097F663 /* Chapter3.swift */; };
 		1A010901257FDD230097F663 /* KnobShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A010900257FDD230097F663 /* KnobShape.swift */; };
+		1A2CBB4525A0AF7E00B6A420 /* Chapter4Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2CBB4425A0AF7E00B6A420 /* Chapter4Exercise.swift */; };
 		1A55971225794D9100E42796 /* Chapter1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55971125794D9100E42796 /* Chapter1.swift */; };
 		1A55971525794E9300E42796 /* Chapter2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55971425794E9300E42796 /* Chapter2.swift */; };
 		1A9A75B92572752D007A1EAB /* TISwiftUIIntroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A75B82572752D007A1EAB /* TISwiftUIIntroApp.swift */; };
 		1A9A75BB2572752D007A1EAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A75BA2572752D007A1EAB /* ContentView.swift */; };
 		1A9A75BD25727531007A1EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A75BC25727531007A1EAB /* Assets.xcassets */; };
 		1A9A75C025727531007A1EAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A75BF25727531007A1EAB /* Preview Assets.xcassets */; };
+		1A9D9058259A40BD00D5E620 /* Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D9057259A40BD00D5E620 /* Measure.swift */; };
 		1AFD74D42587CE42007D612F /* Chapter3Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD74D32587CE42007D612F /* Chapter3Exercise.swift */; };
 		1AFD74D82588C873007D612F /* Chapter4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD74D72588C873007D612F /* Chapter4.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,7 @@
 		1A0108FA257D25810097F663 /* Chapter2Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2Exercise.swift; sourceTree = "<group>"; };
 		1A0108FD257FDAC90097F663 /* Chapter3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3.swift; sourceTree = "<group>"; };
 		1A010900257FDD230097F663 /* KnobShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnobShape.swift; sourceTree = "<group>"; };
+		1A2CBB4425A0AF7E00B6A420 /* Chapter4Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4Exercise.swift; sourceTree = "<group>"; };
 		1A55971125794D9100E42796 /* Chapter1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter1.swift; sourceTree = "<group>"; };
 		1A55971425794E9300E42796 /* Chapter2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2.swift; sourceTree = "<group>"; };
 		1A9A75B52572752C007A1EAB /* TISwiftUIIntro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TISwiftUIIntro.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,6 +35,7 @@
 		1A9A75BC25727531007A1EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A9A75BF25727531007A1EAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A9A75C125727531007A1EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A9D9057259A40BD00D5E620 /* Measure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measure.swift; sourceTree = "<group>"; };
 		1AFD74D32587CE42007D612F /* Chapter3Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3Exercise.swift; sourceTree = "<group>"; };
 		1AFD74D72588C873007D612F /* Chapter4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +70,8 @@
 		1A9A75B72572752C007A1EAB /* TISwiftUIIntro */ = {
 			isa = PBXGroup;
 			children = (
+				1A2CBB4425A0AF7E00B6A420 /* Chapter4Exercise.swift */,
+				1A9D9057259A40BD00D5E620 /* Measure.swift */,
 				1A9A75BC25727531007A1EAB /* Assets.xcassets */,
 				1A55971125794D9100E42796 /* Chapter1.swift */,
 				1A55971425794E9300E42796 /* Chapter2.swift */,
@@ -161,10 +167,12 @@
 			files = (
 				1A9A75BB2572752D007A1EAB /* ContentView.swift in Sources */,
 				1A9A75B92572752D007A1EAB /* TISwiftUIIntroApp.swift in Sources */,
+				1A9D9058259A40BD00D5E620 /* Measure.swift in Sources */,
 				1A0108FB257D25810097F663 /* Chapter2Exercise.swift in Sources */,
 				1AFD74D42587CE42007D612F /* Chapter3Exercise.swift in Sources */,
 				1A55971525794E9300E42796 /* Chapter2.swift in Sources */,
 				1AFD74D82588C873007D612F /* Chapter4.swift in Sources */,
+				1A2CBB4525A0AF7E00B6A420 /* Chapter4Exercise.swift in Sources */,
 				1A010901257FDD230097F663 /* KnobShape.swift in Sources */,
 				1A55971225794D9100E42796 /* Chapter1.swift in Sources */,
 				1A0108FE257FDAC90097F663 /* Chapter3.swift in Sources */,
