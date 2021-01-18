@@ -8,7 +8,7 @@
 import SwiftUI
 public struct ContentView: View {
 	public var body: some View {
-		Chapter4()
+		Chapter6Exercise()
 	}
 }
 //  MARK: Convenience
